@@ -24,3 +24,10 @@ Notice should be
 
     Wait For Elements State    ${notice}    visible    5
     Get Text    ${notice}    equal    ${message}
+
+Alert should be
+    [Arguments]    ${message}
+
+    ${alert}    Set Variable        xpath=//small[contains(text(), "${message}")]
+
+    Get Text    ${alert}    equal    ${message}
