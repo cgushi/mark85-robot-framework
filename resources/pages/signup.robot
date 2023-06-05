@@ -17,17 +17,11 @@ Register user
 
     Click        css=button[type=submit] >> text=Cadastrar
 
-Notice should be
-    [Arguments]    ${message}
-
-    ${notice}    Set Variable        css=.notice p
-
-    Wait For Elements State    ${notice}    visible    5
-    Get Text    ${notice}    equal    ${message}
-
 Alert should be
     [Arguments]    ${message}
 
-    ${alert}    Set Variable        xpath=//small[contains(text(), "${message}")]
+    ${element}     Set Variable    css=.alert-error
 
-    Get Text    ${alert}    equal    ${message}
+    Wait For Elements State    ${element}    visible    5
+
+    Get Text                   ${element}    equal    ${message}
