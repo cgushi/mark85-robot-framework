@@ -1,0 +1,45 @@
+{
+    "create": {
+        "user": {
+            "name": "Cebolácio Júnior Menezes da Silva",
+            "email": "cebolinha@turmadamonica.com.br",
+            "password": "cjms123"
+        },
+        "tasks": [
+            {
+                "name": "Elaborar plano infalível para ser o dono da Rua do Limão",
+                "tags": ["planoinfalivel", "cebolinha"]
+            }
+        ]
+    },
+    "remove": {
+        "user": {
+            "name": "Mônica de Sousa",
+            "email": "monica@turmadamonica.com.br",
+            "password": "mds123"
+        },
+        "tasks": [
+            {
+                "name": "Recuperar o Sansão",
+                "tags": ["resgate"]
+            }
+        ]
+    },
+    "concluído": {
+        "user": {
+            "name": "Cássio Marques de Araújo",
+            "email": "cascao@turmadamonica.com.br",
+            "password": "cma123"
+        },
+        "tasks": [
+            {
+                "name": "Pegar o Sansão",
+                "tags": ["planoinfalivel"]
+            },
+            {
+                "name": "Esconder o Sansão",
+                "tags": ["planoinfalivel"]
+            }
+        ]
+    }
+}
