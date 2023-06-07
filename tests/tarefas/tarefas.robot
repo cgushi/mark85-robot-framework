@@ -2,7 +2,6 @@
 Documentation        Testes de cadastro de tarefas
 
 Resource        ${EXECDIR}/resources/base.robot
-Resource    ../../resources/pages/tasks.robot
 
 *** Test Cases ***
 Deve poder cadastrar uma nova tarefa

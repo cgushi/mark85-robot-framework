@@ -2,7 +2,6 @@
 Documentation        Cenários de testes do login
 
 Resource        ${EXECDIR}/resources/base.robot
-Resource    ../../resources/pages/login.robot
 
 *** Test Cases ***
 Deve poder logar com sucesso
