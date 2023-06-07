@@ -52,7 +52,7 @@ Task should be done
 
     Wait For Elements State
     ...            css=.task-done >> text=${task_name}
-    ...            detached        5  
+    ...            visible        5  
 
 Create tasks
     [Arguments]        @{tasks}
